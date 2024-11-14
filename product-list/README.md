@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# Desafio de Lista de Compras - Frontend Mentor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de lista de compras desenvolvido como parte de um desafio do Frontend Mentor. A aplicação permite que os usuários adicionem itens ao carrinho, visualizem a quantidade de itens, o preço total e façam ajustes no carrinho de compras.
+Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+    React: Biblioteca para construção da interface.
+    TypeScript: Para tipagem estática e melhor manutenção do código.
+    Tailwind CSS: Framework de CSS para estilização rápida e responsiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Funcionalidades
 
-## Expanding the ESLint configuration
+    Adicionar Itens ao Carrinho: Cada item pode ser adicionado ao carrinho clicando no botão "Adicionar".
+    Incrementar e Decrementar Quantidade: Usuários podem ajustar a quantidade de cada item no carrinho.
+    Atualização Dinâmica do Carrinho: O carrinho exibe a quantidade e o preço total dos itens automaticamente quando são adicionados ou modificados.
+    Exibição do Total: Soma dos preços dos itens no carrinho, exibida em tempo real.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Como Executar o Projeto
 
-- Configure the top-level `parserOptions` property like this:
+    Clone este repositório:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Navegue até a pasta do projeto:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+cd seu-repositorio
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Instale as dependências:
+
+npm install
+
+Inicie o servidor de desenvolvimento:
+
+npm start
