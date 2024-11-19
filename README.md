@@ -12,6 +12,11 @@ Este é uma pré-visualização de um blog, onde é possível ver uma imagem des
 
 <img style="border-radius: 8px;" src="images/Blog-Preview.png" alt="preview de um blog"/>
 
+## 📱 Social Profile Links
+Este é uma pré-visualização de um links para redes sociais, nesse site tem a imagem do autor, nome e localização. Além, dos links para as redes sociais dele.
+
+<img style="border-radius: 8px;" src="images/Profile-Link.png" alt="preview de um blog"/>
+
 ## 📦 Tecnologias usadas:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
