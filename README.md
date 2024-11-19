@@ -8,13 +8,13 @@ Este é um projeto de lista de compras, a aplicação permite que os usuários a
 <img style="border-radius: 8px;" src="images/Lista-de-compras.png" alt="preview de site de compras">
 
 ## 🌐 Blog Preview
-Este é uma pré-visualização de um blog, onde é possível ver o post, a descrição, a imagem do assunto e o autor.
+Este é uma pré-visualização de um blog, onde é possível ver uma imagem descritiva sobre o post, um botão informativo, a data de publicação, o título, a descrição e o autor.
 
-<img style="border-radius: 8px;" src="images" alt="preview de um blog"/>
+<img style="border-radius: 8px;" src="images/Blog-Preview.png" alt="preview de um blog"/>
 
 ## 📦 Tecnologias usadas:
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## 👷 Autores
