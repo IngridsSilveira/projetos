@@ -17,6 +17,11 @@ Este é uma pré-visualização de um links para redes sociais, nesse site tem a
 
 <img style="border-radius: 8px;" src="images/Profile-Link.png" alt="preview de um blog"/>
 
+## 🍳 Recipe Page
+Este é um projeto de um site de receitas, que ensina a fazer omelete, desde o tempo de preparação até o valor nutricional.
+
+<img style="border-radius: 8px;" src="images/Recipe-Page.png" alt="preview de um site de receitas"/>
+
 ## 📦 Tecnologias usadas:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
