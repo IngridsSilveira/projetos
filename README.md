@@ -22,6 +22,11 @@ Este é um projeto de um site de receitas, que ensina a fazer omelete, desde o t
 
 <img style="border-radius: 8px;" src="images/Recipe-Page.png" alt="preview de um site de receitas"/>
 
+## 🎲 Four Card
+Este é um projeto de um site onde temos quatro cards (quadrados), cada um informando o que a empresa providencia para os seus clientes, foi utilizado FlexBox para a construção dos cards.
+
+<img style="border-radius: 8px;" src="images/Four-Card.png" alt="preview de um site de receitas"/>
+
 ## 📦 Tecnologias usadas:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
