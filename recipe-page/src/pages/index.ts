@@ -1,0 +1,5 @@
+export * from './components/DivImageTitle/DivImageTitle'
+export * from './components/DivPreparation/DivPreparation'
+export * from './components/DivIngredients/DivIngredients'
+export * from './components/DivInstruction/DivInstruction'
+export * from './components/DivNutrition/DivNutrition'
