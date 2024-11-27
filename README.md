@@ -1,34 +1,63 @@
 ![Logo do projeto](images/frontend.png)
 # 🖥️ Projetos do Front-end Mentor
-Aqui estão todos os projetos que fiz no front-end mentor, enquanto praticava react, tailwind e typescript.
+Este repositório reúne os projetos que desenvolvi enquanto praticava React, Tailwind CSS e TypeScript no Front-end Mentor. Cada projeto é uma oportunidade para explorar diferentes conceitos e melhorar minhas habilidades em desenvolvimento front-end.
+
+# 📝 Nota Importante
+
+Os projetos não estão disponíveis no GitHub Pages. Para visualizá-los, você precisará:
+
+* Clonar este repositório no seu computador;
+* Instalar as dependências com o gerenciador de pacotes de sua preferência;
+* Rodar o projeto no seu editor de código, como o VS Code.
+
+Para mais detalhes, veja a documentação em cada projeto.
+
+Para acessar o repositório, clique aqui: [Projetos no GitHub](https://github.com/IngridsSilveira/projetos)
 
 ## 🛒 Product List
-Este é um projeto de lista de compras, a aplicação permite que os usuários adicionem itens ao carrinho, visualizem a quantidade de itens, o preço total e façam ajustes no carrinho de compras.
+Uma aplicação de lista de compras que permite aos usuários:
+
+* Adicionar itens ao carrinho;
+* Visualizar a quantidade de itens e o preço total;
+* Ajustar a quantidade de itens no carrinho.
+
 
 <img style="border-radius: 8px;" src="images/Lista-de-compras.png" alt="preview de site de compras">
 
 ## 🌐 Blog Preview
-Este é uma pré-visualização de um blog, onde é possível ver uma imagem descritiva sobre o post, um botão informativo, a data de publicação, o título, a descrição e o autor.
+Pré-visualização de um blog que apresenta:
+
+* Uma imagem descritiva sobre o post;
+* Um botão informativo;
+* Data de publicação, título, descrição e autor.
 
 <img style="border-radius: 8px;" src="images/Blog-Preview.png" alt="preview de um blog"/>
 
 ## 📱 Social Profile Links
-Este é uma pré-visualização de um links para redes sociais, nesse site tem a imagem do autor, nome e localização. Além, dos links para as redes sociais dele.
+Uma página com links para redes sociais que exibe:
+
+* Imagem do autor;
+* Nome e localização;
+* Links para as redes sociais do autor.
 
 <img style="border-radius: 8px;" src="images/Profile-Link.png" alt="preview de um blog"/>
 
 ## 🍳 Recipe Page
-Este é um projeto de um site de receitas, que ensina a fazer omelete, desde o tempo de preparação até o valor nutricional.
+Site de receitas que ensina a fazer uma omelete, incluindo:
+
+* Tempo de preparo;
+* Ingredientes;
+* Valor nutricional.
 
 <img style="border-radius: 8px;" src="images/Recipe-Page.png" alt="preview de um site de receitas"/>
 
 ## 🎲 Four Card
-Este é um projeto de um site onde temos quatro cards (quadrados), cada um informando o que a empresa providencia para os seus clientes, foi utilizado FlexBox para a construção dos cards.
+Página com quatro cards que destacam os serviços oferecidos por uma empresa. O layout foi construído utilizando FlexBox.
 
 <img style="border-radius: 8px;" src="images/Four-Card.png" alt="preview de um site de receitas"/>
 
 ## 🧩 Testimonial Grid
-Este é um projeto de uma página de testemunhas, sobre um curso de desenvolvimento, onde o layout é distribuído através do grid. Cada quadrado é a testemunha de uma pessoa.
+Página de testemunhos sobre um curso de desenvolvimento. O layout utiliza CSS Grid para organizar os depoimentos em formato de quadrados.
 
 <img style="border-radius: 8px;" src="images/Testimonial-Grid.png" alt="preview de um site de receitas"/>
 
