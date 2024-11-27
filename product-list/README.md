@@ -1,18 +1,93 @@
-<img style="border-radius: 8px;" src="./src/assets/Lista-de-compras.png">
 
-# Desafio de Lista de Compras - Frontend Mentor
+<img style="border-radius: 8px;" src="../images/Lista-de-compras.png">
 
-Este é um projeto de lista de compras desenvolvido como parte de um desafio do Frontend Mentor. A aplicação permite que os usuários adicionem itens ao carrinho, visualizem a quantidade de itens, o preço total e façam ajustes no carrinho de compras.
+# 🛒 Product List
 
-## Tecnologias Utilizadas
+Este projeto é uma aplicação de lista de compras, permitindo aos usuários adicionar itens ao carrinho, visualizar a quantidade, calcular preços totais e fazer ajustes no carrinho.
 
-- React: Biblioteca para construção da interface.
-- TypeScript: Para tipagem estática e melhor manutenção do código.
-- Tailwind CSS: Framework de CSS para estilização rápida e responsiva.
 
-## Funcionalidades
+## 📦 Tecnologias Utilizadas  
 
-- Adicionar Itens ao Carrinho: Cada item pode ser adicionado ao carrinho clicando no botão "Adicionar".
-- Incrementar e Decrementar Quantidade: Usuários podem ajustar a quantidade de cada item no carrinho.
-- Atualização Dinâmica do Carrinho: O carrinho exibe a quantidade e o preço total dos itens automaticamente quando são adicionados ou modificados.
-- Exibição do Total: Soma dos preços dos itens no carrinho, exibida em tempo real.
+- **React**: Biblioteca para construção da interface.  
+- **TypeScript**: Para tipagem estática e melhor manutenção do código.  
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.  
+
+
+## 🚀 Instalação  
+
+Siga os passos abaixo para rodar o projeto localmente:  
+
+### 1️⃣ Clonar o repositório  
+Abra o terminal e execute o seguinte comando:  
+
+```bash  
+git clone <URL-DO-REPOSITORIO>
+```  
+
+Substitua `<URL-DO-REPOSITORIO>` pelo link do repositório do projeto.  
+
+### 2️⃣ Navegar para o diretório do projeto  
+Entre na pasta do projeto com:  
+
+```bash  
+cd product-list
+```  
+
+### 3️⃣ Instalar as dependências  
+Certifique-se de que você tem o **Node.js** e um gerenciador de pacotes, como **npm** ou **yarn**, instalados.  
+
+Execute o seguinte comando para instalar as dependências:  
+
+```bash  
+npm install  
+```  
+
+ou, se estiver usando **yarn**:  
+
+```bash  
+yarn  
+```  
+
+### 4️⃣ Rodar o projeto  
+Inicie o servidor de desenvolvimento com:  
+
+```bash  
+npm run dev  
+```  
+
+ou, se estiver usando **yarn**:  
+
+```bash  
+yarn dev  
+```  
+
+O projeto estará acessível em: **[http://localhost:5173](http://localhost:5173)**  
+
+
+## 📂 Estrutura do Projeto  
+
+O projeto está organizado da seguinte forma:  
+
+```
+Testimonial-Grid  
+├── public/                # Arquivos públicos  
+├── src/                   # Código-fonte  
+│   ├── components/        # Componentes React  
+│   ├── styles/            # Arquivos de estilização  
+│   ├── App.tsx            # Componente principal  
+│   ├── index.tsx          # Ponto de entrada  
+├── package.json           # Dependências e scripts  
+└── README.md              # Documentação  
+```  
+
+
+## 🤝 Contribuição  
+
+Se desejar contribuir com melhorias neste projeto, fique à vontade para abrir uma **issue** ou enviar um **pull request**.  
+
+
+## 👩‍💻 Autor  
+
+**Ingrid Souza**  
+- Desenvolvedora Front-End  
+- [GitHub](https://github.com/IngridsSilveira)  
