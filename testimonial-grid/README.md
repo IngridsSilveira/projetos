@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Testimonial-Grid.png">
 
-# 🧩 Desafio Testimonial Grid - Frontend Mentor  
+# 🧩 [Testimonial Grid](https://github.com/IngridsSilveira/projetos/tree/main/testimonial-grid) 
 
 Este projeto é uma página de depoimentos sobre um curso de desenvolvimento, com um layout cuidadosamente distribuído utilizando **CSS Grid**. Cada quadrado representa o depoimento de um participante.  
 
