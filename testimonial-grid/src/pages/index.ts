@@ -1,0 +1,5 @@
+export * from './components/DivDaniel'
+export * from './components/DivJanette'
+export * from './components/DivPatrick'
+export * from './components/DivJonathan'
+export * from './components/DivKira'

@@ -27,6 +27,11 @@ Este é um projeto de um site onde temos quatro cards (quadrados), cada um infor
 
 <img style="border-radius: 8px;" src="images/Four-Card.png" alt="preview de um site de receitas"/>
 
+## 🧩 Testimonial Grid
+Este é um projeto de uma página de testemunhas, sobre um curso de desenvolvimento, onde o layout é distribuído através do grid. Cada quadrado é a testemunha de uma pessoa.
+
+<img style="border-radius: 8px;" src="images/Testimonial-Grid.png" alt="preview de um site de receitas"/>
+
 ## 📦 Tecnologias usadas:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
