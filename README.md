@@ -14,7 +14,7 @@ Para mais detalhes, veja a documentação em cada projeto.
 
 Para acessar o repositório, clique aqui: [Projetos no GitHub](https://github.com/IngridsSilveira/projetos)
 
-## 🛒 Product List
+## 🛒 [Product List](https://github.com/IngridsSilveira/projetos/tree/main/product-list)
 Uma aplicação de lista de compras que permite aos usuários:
 
 * Adicionar itens ao carrinho;
@@ -24,7 +24,7 @@ Uma aplicação de lista de compras que permite aos usuários:
 
 <img style="border-radius: 8px;" src="images/Lista-de-compras.png" alt="preview de site de compras">
 
-## 🌐 Blog Preview
+## 🌐 [Blog Preview Card](https://github.com/IngridsSilveira/projetos/tree/main/blog-preview-card)
 Pré-visualização de um blog que apresenta:
 
 * Uma imagem descritiva sobre o post;
@@ -33,7 +33,8 @@ Pré-visualização de um blog que apresenta:
 
 <img style="border-radius: 8px;" src="images/Blog-Preview.png" alt="preview de um blog"/>
 
-## 📱 Social Profile Links
+## 📱 [Social Links Profile](https://github.com/IngridsSilveira/projetos/tree/main/social-links-profile)
+
 Uma página com links para redes sociais que exibe:
 
 * Imagem do autor;
@@ -42,7 +43,8 @@ Uma página com links para redes sociais que exibe:
 
 <img style="border-radius: 8px;" src="images/Profile-Link.png" alt="preview de um blog"/>
 
-## 🍳 Recipe Page
+## 🍳 [Recipe Page](https://github.com/IngridsSilveira/projetos/tree/main/recipe-page)
+
 Site de receitas que ensina a fazer uma omelete, incluindo:
 
 * Tempo de preparo;
@@ -51,12 +53,13 @@ Site de receitas que ensina a fazer uma omelete, incluindo:
 
 <img style="border-radius: 8px;" src="images/Recipe-Page.png" alt="preview de um site de receitas"/>
 
-## 🎲 Four Card
+## 🎲 [Four Card Feature](https://github.com/IngridsSilveira/projetos/tree/main/four-card-feature)
 Página com quatro cards que destacam os serviços oferecidos por uma empresa. O layout foi construído utilizando FlexBox.
 
 <img style="border-radius: 8px;" src="images/Four-Card.png" alt="preview de um site de receitas"/>
 
-## 🧩 Testimonial Grid
+## 🧩 [Testimonial Grid](https://github.com/IngridsSilveira/projetos/tree/main/testimonial-grid)
+
 Página de testemunhos sobre um curso de desenvolvimento. O layout utiliza CSS Grid para organizar os depoimentos em formato de quadrados.
 
 <img style="border-radius: 8px;" src="images/Testimonial-Grid.png" alt="preview de um site de receitas"/>
