@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Profile-Link.png">
 
-# 🧾 [Social Links Profile](https://github.com/IngridsSilveira/projetos/tree/main/social-links-profile)
+# 🧾 [Social Links Profile](https://ingridssilveira.github.io/projetos/social-links-profile/)
 
 Este projeto é uma página que exibe informações de perfil, incluindo foto do autor, nome, localização e links para redes sociais.
 

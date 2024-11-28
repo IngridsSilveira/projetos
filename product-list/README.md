@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Lista-de-compras.png">
 
-# 🛒 [Product List](https://github.com/IngridsSilveira/projetos/tree/main/product-list)
+# 🛒 [Product List](https://ingridssilveira.github.io/projetos/product-list/)
 
 
 Este projeto é uma aplicação de lista de compras, permitindo aos usuários adicionar itens ao carrinho, visualizar a quantidade, calcular preços totais e fazer ajustes no carrinho.

@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Blog-Preview.png">
 
-# 🌐 [Blog Preview Card](https://github.com/IngridsSilveira/projetos/tree/main/blog-preview-card)
+# 🌐 [Blog Preview Card](https://ingridssilveira.github.io/projetos/blog-preview-card/)
 
 
 Este projeto apresenta uma pré-visualização de um blog, exibindo uma imagem descritiva, título, autor, data de publicação e botão para mais informações

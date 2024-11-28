@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Four-Card.png">
 
-# 🧱 [Four Card Feature](https://github.com/IngridsSilveira/projetos/tree/main/four-card-feature)
+# 🧱 [Four Card Feature](https://ingridssilveira.github.io/projetos/four-card-feature/)
 
 
 Este projeto exibe quatro cartões informativos que apresentam os principais serviços de uma empresa. A disposição dos elementos foi feita utilizando Flexbox.

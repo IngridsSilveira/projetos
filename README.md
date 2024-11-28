@@ -14,7 +14,6 @@ Para mais detalhes, veja a documentação em cada projeto.
 
 Para acessar o repositório, clique aqui: [Projetos no GitHub](https://github.com/IngridsSilveira/projetos)
 
-https://ingridssilveira.github.io/projetos/blog-preview-card
 
 ## 🛒 [Product List](https://github.com/IngridsSilveira/projetos/tree/main/product-list)
 Uma aplicação de lista de compras que permite aos usuários:

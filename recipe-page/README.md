@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Recipe-Page.png">
 
-# 🥘 [Recipe Page](https://github.com/IngridsSilveira/projetos/tree/main/recipe-page)
+# 🥘 [Recipe Page](https://ingridssilveira.github.io/projetos/recipe-page/)
 
 Este projeto é uma página de receita que ensina a preparar uma omelete. Inclui informações detalhadas, como o tempo de preparo e valores nutricionais.
 

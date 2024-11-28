@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Testimonial-Grid.png">
 
-# 🧩 [Testimonial Grid](https://github.com/IngridsSilveira/projetos/tree/main/testimonial-grid) 
+# 🧩 [Testimonial Grid](https://ingridssilveira.github.io/projetos/testimonial-grid/) 
 
 Este projeto é uma página de depoimentos sobre um curso de desenvolvimento, com um layout cuidadosamente distribuído utilizando **CSS Grid**. Cada quadrado representa o depoimento de um participante.  
 
