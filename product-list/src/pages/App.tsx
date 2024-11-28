@@ -15,7 +15,7 @@ interface ItemCarrinho {
 
 function App() {
   const [carrinho, setCarrinho] = useState<ItemCarrinho[]>([]);
-  const [itemSelecionado, setItemSelecionado] = useState<number | null>(null);
+  const [, setItemSelecionado] = useState<number | null>(null);
   const [total, setTotal] = useState(0);
 
   // Função para calcular o total do carrinho
