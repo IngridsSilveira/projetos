@@ -34,7 +34,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
         </div>
       </div>
       <h2 className="text-xl font-bold mb-2">{highlight}</h2>
-      <p>{description}</p>
+      <p className="text-gray-600">{description}</p>
     </div>
   );
 };
