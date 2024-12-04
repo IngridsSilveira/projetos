@@ -1,7 +1,9 @@
+import ShareButton from "./ShareButton";
+
 export const Card = () => {
   return (
-    <div className="bg-white h-96 w-2/6 rounded-tr-lg rounded-br-lg flex flex-col justify-center gap-6 p-4">
-      <h1 className="font-semibold font-sans text-2xl leading-relaxed tracking-wider text-slate-700">
+    <div className="bg-white h-96 max-w-96 md:max-w-xl  md:rounded-tr-lg rounded-br-lg rounded-bl-lg md:rounded-bl-none flex flex-col justify-center gap-6 p-4">
+      <h1 className="font-semibold font-sans text-xl md:text-2xl leading-relaxed tracking-wider text-slate-700">
         Shift the overall look and feel by adding these wonderful touches to
         furniture in your home
       </h1>
@@ -23,13 +25,7 @@ export const Card = () => {
             <p className="text-slate-500">28 Jun 2020</p>
           </div>
         </div>
-        <button className="bg-slate-200 rounded-full w-10 h-10 flex items-center justify-center">
-          <img
-            src="/projetos/article-preview/images/icon-share.svg"
-            alt="image share"
-            className="w-4"
-          />
-        </button>
+        <ShareButton />
       </div>
     </div>
   );
