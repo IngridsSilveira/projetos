@@ -65,6 +65,12 @@ Página de testemunhos sobre um curso de desenvolvimento. O layout utiliza CSS G
 
 <img style="border-radius: 8px;" src="images/Testimonial-Grid.png" alt="preview de um site de receitas"/>
 
+## 📰 [Article Preview](https://github.com/IngridsSilveira/projetos/tree/main/article-preview)
+
+Este projeto é uma página de artigos feita pela autora Michelle, onde ela ensina a deixar sua casa maravilhosa.
+
+<img style="border-radius: 8px;" src="images/Article-Preview.png" alt="preview de um site de receitas"/>
+
 ## 📦 Tecnologias usadas:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>

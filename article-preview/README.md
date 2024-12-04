@@ -1,50 +1,93 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img style="border-radius: 8px;" src="../images/Article-Preview.png">
 
-Currently, two official plugins are available:
+# 📰 [Article Preview](https://ingridssilveira.github.io/projetos/article-preview/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é uma página de artigos feita pela autora Michelle, onde ela ensina a deixar sua casa maravilhosa. 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📦 Tecnologias Utilizadas  
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: Biblioteca para construção da interface.  
+- **TypeScript**: Para tipagem estática e melhor manutenção do código.  
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.  
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+
+## 🚀 Instalação  
+
+Siga os passos abaixo para rodar o projeto localmente:  
+
+### 1️⃣ Clonar o repositório  
+Abra o terminal e execute o seguinte comando:  
+
+```bash  
+git clone <URL-DO-REPOSITORIO>
+```  
+
+Substitua `<URL-DO-REPOSITORIO>` pelo link do repositório do projeto.  
+
+### 2️⃣ Navegar para o diretório do projeto  
+Entre na pasta do projeto com:  
+
+```bash  
+cd article-preview
+```  
+
+### 3️⃣ Instalar as dependências  
+Certifique-se de que você tem o **Node.js** e um gerenciador de pacotes, como **npm** ou **yarn**, instalados.  
+
+Execute o seguinte comando para instalar as dependências:  
+
+```bash  
+npm install  
+```  
+
+ou, se estiver usando **yarn**:  
+
+```bash  
+yarn  
+```  
+
+### 4️⃣ Rodar o projeto  
+Inicie o servidor de desenvolvimento com:  
+
+```bash  
+npm run dev  
+```  
+
+ou, se estiver usando **yarn**:  
+
+```bash  
+yarn dev  
+```  
+
+O projeto estará acessível em: **[http://localhost:5173](http://localhost:5173)**  
+
+
+## 📂 Estrutura do Projeto  
+
+O projeto está organizado da seguinte forma:  
+
 ```
+Testimonial-Grid  
+├── public/                # Arquivos públicos  
+├── src/                   # Código-fonte  
+│   ├── components/        # Componentes React  
+│   ├── styles/            # Arquivos de estilização  
+│   ├── App.tsx            # Componente principal  
+│   ├── index.tsx          # Ponto de entrada  
+├── package.json           # Dependências e scripts  
+└── README.md              # Documentação  
+```  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🤝 Contribuição  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Se desejar contribuir com melhorias neste projeto, fique à vontade para abrir uma **issue** ou enviar um **pull request**.  
+
+
+## 👩‍💻 Autor  
+
+**Ingrid Souza**  
+- Desenvolvedora Front-End  
+- [GitHub](https://github.com/IngridsSilveira)  
