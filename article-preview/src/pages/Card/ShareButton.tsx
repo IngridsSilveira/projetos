@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const ShareButton = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleShareMenu = () => {
     setIsOpen(!isOpen);
