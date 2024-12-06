@@ -18,7 +18,9 @@ const useIsMobile = () => {
 
 function App() {
   const isMobile = useIsMobile();
+
   const [email, setEmail] = useState<string>("");
+  const [isSuccessVisible, setIsSuccessVisible] = useState<boolean>(false);
 
   const images = {
     mobile:
@@ -29,21 +31,27 @@ function App() {
 
   return (
     <main className="bg-slate-700 w-screen h-screen flex items-center justify-center font-roboto">
-      <section
-        id="divPrincipal"
-        className="bg-white w-full lg:max-w-5xl h-full md:h-4/5 flex flex-col md:flex-row-reverse rounded-none md:rounded-lg md:p-4 gap-14"
-      >
-        <img
-          src={isMobile ? images.mobile : images.desktop}
-          alt="newsletter illustration"
-          className="w-full md:w-auto"
+      {isSuccessVisible ? (
+        <DivSuccess
+          email={email}
+          onDismiss={() => setIsSuccessVisible(false)}
         />
-        <div className="flex flex-col justify-center gap-6 pl-8">
-          <DivText />
-          <DivInput setEmail={setEmail} />
-        </div>
-      </section>
-      <DivSuccess email={email} />
+      ) : (
+        <section className="bg-white w-full lg:max-w-5xl h-full md:h-4/5 flex flex-col md:flex-row-reverse rounded-none md:rounded-lg md:p-4 gap-14">
+          <img
+            src={isMobile ? images.mobile : images.desktop}
+            alt="newsletter illustration"
+            className="w-full md:w-auto"
+          />
+          <div className="flex flex-col justify-center gap-6 pl-8">
+            <DivText />
+            <DivInput
+              setEmail={setEmail}
+              onSuccess={() => setIsSuccessVisible(true)}
+            />
+          </div>
+        </section>
+      )}
     </main>
   );
 }
