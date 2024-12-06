@@ -1,7 +1,7 @@
 
 <img style="border-radius: 8px;" src="../images/Newsletter-Sing-Up.png">
 
-# 📰 [Newsletter Sing Up](https://github.com/IngridsSilveira/projetos/tree/main/newsletter-sing-up)
+# 📰 [Newsletter Sing Up](https://ingridssilveira.github.io/projetos/newsletter-sing-up/)
 
 
 Este é um projeto de um componente de formulário para inscrição em uma newsletter. Ele conta com validação de e-mail, responsividade e uma mensagem de sucesso exibida ao enviar o formulário corretamente.
