@@ -71,6 +71,12 @@ Este projeto é uma página de artigos feita pela autora Michelle, onde ela ensi
 
 <img style="border-radius: 8px;" src="images/Article-Preview.png" alt="preview de um site de receitas"/>
 
+## 📰 [Newsletter Sing Up](https://github.com/IngridsSilveira/projetos/tree/main/newsletter-sing-up)
+
+Este é um projeto de um componente de formulário para inscrição em uma newsletter. Ele conta com validação de e-mail, responsividade e uma mensagem de sucesso exibida ao enviar o formulário corretamente. 
+
+<img style="border-radius: 8px;" src="images/Newsletter-Sing-Up.png" alt="preview de um site de receitas"/>
+
 ## 📦 Tecnologias usadas:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)<br>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
