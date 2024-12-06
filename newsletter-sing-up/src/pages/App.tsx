@@ -1,34 +1,49 @@
 import { useState, useEffect } from "react";
-import { DivText } from "./components/DivText";
-import { DivInput } from "./components/DivInput";
+import { DivText } from "./components/DivText/DivText";
+import { DivInput } from "./components/DivInput/DivInput";
+import { DivSuccess } from "./components/DivSuccess/DivSuccess";
 
-function App() {
+const useIsMobile = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
     window.addEventListener("resize", handleResize);
 
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  return isMobile;
+};
+
+function App() {
+  const isMobile = useIsMobile();
+  const [email, setEmail] = useState<string>("");
+
+  const images = {
+    mobile:
+      "/projetos/newsletter-sing-up/assets/images/illustration-sign-up-mobile.svg",
+    desktop:
+      "/projetos/newsletter-sing-up/assets/images/illustration-sign-up-desktop.svg",
+  };
+
   return (
     <main className="bg-slate-700 w-screen h-screen flex items-center justify-center font-roboto">
-      <section className="bg-slate-50 w-full lg:w-3/5 h-full md:h-4/5 flex flex-col md:flex-row-reverse rounded-lg md:p-4 gap-14">
+      <section
+        id="divPrincipal"
+        className="bg-white w-full lg:max-w-5xl h-full md:h-4/5 flex flex-col md:flex-row-reverse rounded-none md:rounded-lg md:p-4 gap-14"
+      >
         <img
-          src={
-            isMobile
-              ? "/projetos/newsletter-sing-up/assets/images/illustration-sign-up-mobile.svg"
-              : "/projetos/newsletter-sing-up/assets/images/illustration-sign-up-desktop.svg"
-          }
-          alt="newsletter image"
+          src={isMobile ? images.mobile : images.desktop}
+          alt="newsletter illustration"
+          className="w-full md:w-auto"
         />
         <div className="flex flex-col justify-center gap-6 pl-8">
           <DivText />
-          <DivInput/>
+          <DivInput setEmail={setEmail} />
         </div>
       </section>
+      <DivSuccess email={email} />
     </main>
   );
 }
