@@ -37,7 +37,7 @@ function App() {
           onDismiss={() => setIsSuccessVisible(false)}
         />
       ) : (
-        <section className="bg-white w-full lg:max-w-5xl h-full md:h-4/5 flex flex-col md:flex-row-reverse rounded-none md:rounded-lg md:p-4 gap-14">
+        <section className="bg-white w-screen lg:max-w-5xl h-full md:h-4/5 flex flex-col md:flex-row-reverse rounded-none md:rounded-2xl md:p-4 gap-14">
           <img
             src={isMobile ? images.mobile : images.desktop}
             alt="newsletter illustration"
